@@ -1,0 +1,74 @@
+.banner {
+    height: 90vh;
+    position: relative;
+  
+  }
+  
+  .banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-image: linear-gradient(to left, rgba(12, 12, 12, 0), rgb(7, 6, 6) 100%) fixed;
+    
+  }
+
+  .banner .info {
+    width: 35%;
+    position: absolute;
+    left: 50px;
+    bottom: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner .info img {
+    width: 400px;
+
+  }
+
+  .banner .info .description {
+    margin: 15px 0px;
+  }
+
+  .banner .info .date {
+    border-radius: 10px ;
+    font-weight:inherit;
+    color: rgb(212, 206, 206);
+    font-size: 15px;
+  }
+
+  .banner .info .header {
+    margin: 20px 0px;
+    font-weight:bolder;
+    color: white;
+    font-size: 20px;
+  }
+
+  .banner .info .buttons {
+    display: flex;
+  }
+  .banner .info .buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .banner .info .buttons button.play {
+    background-color: white;
+    color: var(--main-color);
+  }
+  .banner .info .buttons button.more {
+    background-color: gray;
+    color: white;
+  }
+  .banner.info .buttons button span {
+    margin-left: 5px;
+  }
+  
